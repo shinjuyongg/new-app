@@ -1,0 +1,50 @@
+.status-bar {
+  padding-top: 1.25rem;
+  width: 100%;
+  min-height: 54px;
+}
+
+.status-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.status-time {
+  flex: 1;
+  padding-right: 0.375rem;
+  padding-left: 1rem;
+  font-size: 1.125rem;
+  line-height: 1;
+  text-align: center;
+  color: black;
+  white-space: nowrap;
+  font-weight: 590;
+}
+
+.status-spacer {
+  flex-shrink: 0;
+  height: 0.625rem;
+  width: 124px;
+}
+
+.status-icons {
+  flex: 1;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1rem;
+  padding-left: 0.375rem;
+}
+
+.status-icon.signal {
+  width: 19px;
+  aspect-ratio: 1.58;
+}
+
+.status-icon.battery {
+  width: 17px;
+  aspect-ratio: 1.42;
+}

@@ -1,0 +1,43 @@
+.login-page {
+  overflow: hidden;
+  padding-bottom: 4rem;
+  margin: 0 auto;
+  width: 100%;
+  background-color: white;
+  max-width: 480px;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.75rem;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.login-title {
+  align-self: center;
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: black;
+}
+
+.login-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.5rem;
+  margin-top: 9rem;
+  width: 100%;
+  font-size: 1.125rem;
+  color: #71717a;
+}
+
+.login-divider {
+  width: 140px;
+  height: 2px;
+  margin: 6rem auto 0;
+  background-color: black;
+  border: none;
+}

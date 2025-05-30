@@ -1,0 +1,16 @@
+.admin-contact {
+  align-self: flex-start;
+  margin-top: 3rem;
+  letter-spacing: -0.025em;
+  line-height: 1.75;
+  color: #71717a;
+}
+
+.admin-email {
+  color: #71717a;
+  text-decoration: none;
+}
+
+.admin-email:hover {
+  text-decoration: underline;
+}
